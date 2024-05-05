@@ -1,0 +1,124 @@
+/* style.css 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 60%;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px; /* Add padding inside the container 
+}
+
+/* Adjust the navigation menu styles 
+.navbar {
+    margin-bottom: 20px;
+    border-radius: 0; /* Remove border radius
+}
+
+.navbar-nav {
+    margin-left: auto; /* Align menu items to the right 
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px; /* Add padding to menu items 
+}
+
+.navbar-brand {
+    font-size: 24px; /* Increase font size for the brand/logo 
+    font-weight: bold;
+}
+
+/* Add a subtle shadow to the navbar when scrolled 
+.navbar-scrolled {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Style the footer 
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+*/
+
+/* style.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set box-sizing to border-box for easier layout calculations */
+* {
+    box-sizing: border-box;
+}
+
+/* Apply a global font family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Create a flex container for the header, main content, and footer */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: flex-start; /* Align content at the top */
+    min-height: 100vh; /* Ensure the container spans the full height of the viewport */
+}
+
+/* Style the header */
+/*
+header {
+    width: 100%; 
+    background-color: #333; 
+    padding: 20px 0; 
+    color: white; 
+    text-align: center; 
+}
+*/
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+/* Style the navigation menu */
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Add padding around menu items */
+    margin: 0 10px; /* Add margin between menu items */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.navbar a:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+/* Style the main content */
+#main {
+    width: 65%; /* Set the width to 65% */
+    padding: 20px; /* Add padding around the content */
+    background-color: #f9f9f9; /* Light background color */
+    margin-top: 20px; /* Add margin on top */
+    border-radius: 8px; /* Add border radius for rounded corners */
+}
+
+/* Style the footer */
+footer {
+    width: 100%; /* Full width */
+    background-color: #333; /* Dark background color */
+    padding: 20px 0; /* Add padding on top and bottom */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+}

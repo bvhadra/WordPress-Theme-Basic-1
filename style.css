@@ -1,0 +1,391 @@
+/*
+Theme Name: Basic 1 Theme
+Theme URI: http://example.com/basic-theme
+Description: A basic WordPress theme
+Author: Bidhan Vhadra
+Author URI: http://www.dribbble.com/bidhan-vhadra
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+header {
+    background-color: #b9cce2;
+    color: #2c3e50;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.site-tagline {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #2c3e50;
+    color: #b9cce2;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #b9cce2;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #48536C;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.page-title {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-title h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Main Content Styles */
+main {
+    background-color: #f1f1e6;
+    padding: 20px;
+    /*margin: 20px auto;*/
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 1200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article h2 {
+    /*color: #2c3e50;*/
+    color:blue;
+}
+
+article a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #3498db;
+}
+
+/* Footer Styles */
+/*
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+*/
+
+/*
+footer{
+background-color: #b9cce2;
+color: #2c3e50;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
+vertical-align: middle;
+font-weight: 500;
+font-size: 20px;
+
+}
+*/
+
+.blog-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.post-thumbnail {
+    flex: 0 0 150px;
+    margin-right: 20px;
+}
+
+.post-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-content {
+    flex: 1;
+}
+
+.post-content h2{
+    margin-top: 0;
+    
+}
+
+
+.post-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #3498db;
+}
+
+.post-thumbnail {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.navigation.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.navigation.pagination .nav-links {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.navigation.pagination .page-numbers {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    text-decoration: underline;
+    border-radius: 4px;
+}
+
+.navigation.pagination .page-numbers.current {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navigation.pagination .page-numbers:hover {
+    background-color: #e6e6e6;
+    font-weight: bold;
+}
+
+
+
+/* Recent Posts Widget Styles */
+.recent-posts-widget {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.recent-posts-widget .widget-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.recent-posts-widget ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-posts-widget ul li {
+    margin-bottom: 10px;
+}
+
+.recent-posts-widget ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.recent-posts-widget ul li a:hover {
+    color: #000;
+}
+
+/* Main Content Area Styles */
+.main-content {
+   
+    width: calc(75% - 30px);
+    float: right;
+
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Page Title Styles */
+.page-title {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-title h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Sidebar Styles 
+.sidebar {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+*/
+/* Blog Post Styles */
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post .post-thumbnail {
+    margin-bottom: 15px;
+}
+
+.blog-post .post-content h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.blog-post .post-content a {
+    color: #009BF9;
+    text-decoration: none;
+}
+
+.blog-post .post-content a:hover {
+    color: #00B7FF;
+    text-decoration: none;
+}
+
+.blog-post .post-content h2 a {
+    color: #009BF9;
+    text-decoration: underline;
+}
+
+.blog-post .post-content h2 a:hover {
+    color: #00B7FF;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    main {
+        margin: 20px;
+        max-width: 100%;
+    }
+}
+
+
+.contact-page-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-form-column,
+.contact-text-column {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    .contact-form-column,
+    .contact-text-column {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.page-content,
+.contact-form {
+    padding: 20px;
+    /*background-color: #f5f5f5;*/
+    border-radius: 4px;
+}
+
+/* Add styles for sidebar */
+.sidebar {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.main-content {
+    width: 75%;
+    float: right;
+}
+
+/* Add wrapper styles */
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Adjust footer position */
+footer {
+    background-color: #b9cce2;
+    color: #2c3e50;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+    clear: both;
+    margin-top: 20px; /* Adjust as needed */
+}
