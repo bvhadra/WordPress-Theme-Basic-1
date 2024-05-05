@@ -1,0 +1,2 @@
+# WordPress-Theme-Basic-1
+This is a custom WordPress Theme (Basic 1) built from scratch.  It is a nice clean and simple WordPress theme.  It includes header, nav bar, page content area, footer, blog posts and custom page templates.  The theme has 4 pages with content.  Also a blog posts page with content.  The posts can have a featured image to diplay.  Also the featured image has a smaller thumbnail version on the main blog index page with small excerpt of the blog post.  The blog page also has pagination so that there are 4 post listings per page.
