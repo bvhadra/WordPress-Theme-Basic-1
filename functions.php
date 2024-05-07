@@ -35,6 +35,7 @@ add_action( 'wp_enqueue_scripts', 'enqueue_bootstrap_js' );
 
 // register widgets
 // Register sidebar
+
 function basic_theme_widgets_init() {
     register_sidebar(array(
         'name'          => __('Blog Sidebar', 'basic-theme'),
@@ -48,6 +49,22 @@ function basic_theme_widgets_init() {
 }
 add_action('widgets_init', 'basic_theme_widgets_init');
 
+
+/*
+// Widget Locations
+function init_widgets($id){
+	register_sidebar(array(
+		'name'	=> 'Sidebar',
+		'id'	=> 'sidebar',
+		'before_widget'	=> '<div class="side-widget">',
+		'after_widget'	=> '</div>',
+		'before_title'	=> '<h3>',
+		'after_title'	=>	'</h3>'
+	));
+}
+
+add_action('widgets_init', 'init_widgets');
+*/
 
 // Enqueue styles and scripts
 function basic_theme_scripts() {
